@@ -127,7 +127,7 @@ class _HomeState extends State<Home> {
                         child: Image.asset("lib/images/${imgData['img']}.jpeg",height: 60,width: 60,fit: BoxFit.fitHeight,)
                     ),
                   ),
-                  Text("${imgData['name']} "),
+                  Text("${imgData['name']} ",style: TextStyle(fontSize: 12),),
                 ],
               );
             }
